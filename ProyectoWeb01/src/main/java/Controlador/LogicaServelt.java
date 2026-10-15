@@ -37,6 +37,10 @@ public class LogicaServelt extends HttpServlet {
             out.println("<title>Servlet LogicaServelt</title>");
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>hola mundo</h1>")
+            out.println("<h2>hola mundo</h2>")
+            out.println("<h3>hola mundo</h3>")
+            out.println("<h4>hola mundo</h4>")
             out.println("<h1>Servlet LogicaServelt at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
